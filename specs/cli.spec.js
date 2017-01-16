@@ -1,0 +1,4 @@
+describe('Cli', () => {
+    describe('#execute', () => {
+    });
+});

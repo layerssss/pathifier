@@ -1,0 +1,28 @@
+{
+  "name": "pathifier",
+  "version": "1.0.3",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "pathifier-server": "./bin/pathifier-server.js"
+  },
+  "scripts": {
+    "test": "mocha specs/*.spec.js",
+    "lint": "eslint .",
+    "build": "webpack"
+  },
+  "author": "Michael Yin",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.13.0",
+    "mocha": "^3.2.0",
+    "sinon": "^1.17.7",
+    "sinon-chai": "^2.8.0"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "jsdom": "^9.9.1",
+    "underscore.string": "^3.3.4"
+  }
+}
